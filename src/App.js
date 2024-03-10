@@ -2,7 +2,7 @@
 import './styles.css'; // Import CSS for styling
 import Game from './components/Game.js'; // Import Game component
 
-function page() {
+function mainGame() {
   return (
     <div className="App">
       <h1>Tic Tac Toe</h1>
@@ -11,4 +11,4 @@ function page() {
   );
 }
 
-export default page;
+export default mainGame;
